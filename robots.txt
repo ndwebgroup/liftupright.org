@@ -1,0 +1,6 @@
+Sitemap: http://www.liftupright.org/sitemap.xml
+User-agent: *
+Disallow: /news/category/
+Disallow: /example
+Disallow: /admin/
+Disallow: /search/

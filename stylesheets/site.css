@@ -1,0 +1,357 @@
+/**
+ *  RESETS: html5boilerplate.com 
+ */
+    html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure,footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video{margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+    article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+    blockquote, q { quotes: none; }
+    blockquote:before, blockquote:after,q:before, q:after { content: ""; content: none; }
+    ins { background-color: #ff9; color: #000; text-decoration: none; }
+    mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+    del { text-decoration: line-through; }
+    abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+    table { border-collapse: collapse; border-spacing: 0; }
+    hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+    input, select { vertical-align: middle; }
+    body { font:13px/1.231 sans-serif; *font-size:small; }
+    select, input, textarea, button { font:99% sans-serif; }
+    pre, code, kbd, samp { font-family: monospace, sans-serif; }
+    html { overflow-y: scroll; }
+    a:hover, a:active { outline: none; }
+    ul, ol { margin-left: 2em; }
+    ol { list-style-type: decimal; }
+    nav ul, nav li { margin: 0; list-style:none; list-style-image: none; }
+    small { font-size: 85%; }
+    strong, th { font-weight: bold; }
+    td { vertical-align: top; }
+    sub, sup { font-size: 75%; line-height: 0; position: relative; }
+    sup { top: -0.5em; }
+    sub { bottom: -0.25em; }
+    pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word;padding: 15px; }
+    textarea { overflow: auto; }
+    .ie6 legend, .ie7 legend { margin-left: -7px; } 
+    input[type="radio"] { vertical-align: text-bottom; }
+    input[type="checkbox"] { vertical-align: bottom; }
+    .ie7 input[type="checkbox"] { vertical-align: baseline; }
+    .ie6 input { vertical-align: text-bottom; }
+    label, input[type="button"], input[type="submit"], input[type="image"], button { cursor: pointer; }
+    button, input, select, textarea { margin: 0; }
+    ::-moz-selection{ background: #007dc3; color:#fff; text-shadow: none; }
+    ::selection { background:#007dc3; color:#fff; text-shadow: none; }
+    a:link { -webkit-tap-highlight-color: #FF5E99; }
+    button {  width: auto; overflow: visible; }
+    .ie7 img { -ms-interpolation-mode: bicubic; }
+    h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+    i, em { font-style: italic; }
+
+/**
+ *  CONTENT
+ */
+    body {
+        font-family: Arial, sans-serif;
+        color: #727e8e;
+    }
+    a, a:active, a:visited { 
+        color: #007dc3; 
+    }
+    a:hover { 
+        color: #727e8e; 
+    }
+    p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 17px;
+    }
+    h1 {
+        width: 549px;
+        color: white;
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: bold;
+        padding: 10px 10px 10px 15px;
+        background-image: url("images/bg_h1.jpg");
+        background-repeat: no-repeat;
+        background-color: #007dc3;
+        margin-bottom: 17px;
+    }
+    h2 {
+        font-size: 18px;
+        color: #007dc3;
+        margin-bottom: 17px;
+    }
+    h3 {
+        color: #007dc3;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 22px;
+        margin-bottom: 17px;
+    }
+    h4 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    li {
+        margin-bottom: 12px;
+    }
+    li ul {
+        margin-top: 12px;
+    }
+    
+
+/**
+ *  LAYOUT
+ */
+    body {
+        background-color: white;
+        background-image: url("images/bg_body.jpg");
+    }
+    .wrapper {
+        width: 1024px;
+        margin: 0 auto;
+    }
+    .leftside {
+        float: left;
+        left: 0;
+        position: relative;
+        top: 0;
+        width: 305px;
+        margin-left: -930px;
+    }
+    .middle {
+        background-color: white;
+        padding: 28px 47px;
+    }
+    .content {
+        width: 580px;
+        margin-left: 350px;
+        float: left;
+        min-height: 10px;
+    }
+    
+/**
+ * TOP SECTION
+ */
+    #top {
+        height: 193px;
+        background-image: url("images/bg_top.png");
+        position: relative;
+    }
+    #logo_link {
+        text-decoration: none;
+        background-image: url("images/logo.png");
+        width: 248px;
+        height: 110px;
+        position: absolute;
+        top: 44px;
+        left: 74px;
+    }
+    #tag {
+        width: 329px;
+        height: 80px;
+        background-image: urL("images/tag.png");
+        position: absolute;
+        top: 88px;
+        left: 357px;
+    }
+    #top nav {
+        width: 162px;
+        position: absolute;
+        top: 110px;
+        right: 0;
+        font-size: 13px;
+        line-height: 18px;
+        font-weight: bold;  
+    }
+    #top nav a {
+        color: #727e8e;
+        text-decoration: none;
+    }
+    #top nav a:hover {
+        text-decoration: underline;
+    }
+    
+    
+/**
+ *  SQUARES NAV
+ */
+    nav#square {
+        width: 301px;
+        height: 302px;
+        position: relative;
+    }
+    nav#square a {
+        display: block;
+        position: absolute;
+        background-position: top left;
+        text-decoration: none;
+    }
+    nav#square a:hover {
+        background-position: bottom left;
+    }
+    a#nav_setup {
+        width: 150px;
+        height: 152px;
+        top: 0px;
+        left: 0px;
+        background-image: url("images/nav_setup.png");
+    }
+    a#nav_training {
+        width: 151px;
+        height: 152px;
+        top: 0px;
+        right: 0px;
+        background-image: url("images/nav_training.png");
+    }
+    a#nav_weather {
+        width: 150px;
+        height: 150px;
+        bottom: 0px;
+        left: 0px;
+        background-image: url("images/nav_weather.png");
+    }
+    a#nav_contact {
+        width: 151px;
+        height: 150px;
+        bottom: 0px;
+        right: 0px;
+        background-image: url("images/nav_contact.png");
+    }
+    
+/**
+ * SUB NAV
+ */
+    nav#subnav {
+        height: 135px;
+        width: 302px;
+        background-image: url("images/bg_subnav.jpg");
+        margin-top: 41px;
+    }
+    nav#subnav li {
+        margin-left: 22px;
+    }
+    nav#subnav a {
+        display: inline-block;
+        font-size: 14px;
+        color: #727e8f;
+        text-decoration: none;
+        padding-left: 25px;
+        padding-bottom: 6px;
+        background-image: url("images/bg_subnav_a.png");
+        background-repeat: no-repeat;
+        background-position: 0 3px;
+        width: 200px;
+    }
+    nav#subnav a:hover {
+        background-image: url("images/bg_subnav_a_on.png");
+    }
+    .addthis_toolbox {
+        margin-top: 16px;
+        margin-left: 22px;
+    }
+    .at300b {
+        margin-right: 4px;
+    }
+    
+/**
+ *  FOOTER
+ */
+    .footer {
+        padding: 15px 47px;
+        background-image: url("images/bg_footer.png");
+        height: 100px;
+        background-repeat: repeat-x;
+        margin-top: 10px;
+    }
+    .footer .leftside {
+        font-size: 12px;
+    }
+
+
+/****** DOWNLOADS TABLE ******/
+    #downloads_table, #downloads_table h3 {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    #downloads_table h3 {
+        margin: 4px 0px;
+    }
+    #downloads_table a {
+        color: #727e8f;
+        padding-left: 15px;
+    }
+/** 
+ *  BLOCKS
+ */
+    .block { margin-bottom: 20px; }
+    .block-head {
+    	margin-bottom: 10px;
+    	font-size: 120%;
+    	font-weight: bold;
+    	border-bottom: 1px solid #CCCCCC;
+    }
+    .block-head a { text-decoration: none; }
+    .block img { max-width: 200px; }
+    .sidenav .block img { max-width: 150px; }
+
+/**
+ *  PAGINATION
+ */
+    .pagination { padding: 5px 0; }
+	.pagination table {
+		margin: 0 auto;
+		border-collapse: collapse;
+	}
+	.pagination table td { text-align: center; }
+	.pagination table a {
+		display: block;
+		padding: 4px 5px;
+		line-height: 1;
+		color: #FFFFFF;
+		text-decoration: none;
+		background-color: #999999;
+	}
+	.pagination table a:hover, .pagination table a.act { background-color: #5FA1FF; }
+	.pagination table a.act, .pagination table a.act2 { cursor: default; }
+	.pagination table a.act2 { background-color: #D1DDEF; }
+	
+
+/**
+ *  IMAGE ALIGNMENT CLASSES (fckstyles.xml) 
+ */
+    .alignTL, .alignBL, .alignL { float: left; }
+    .alignTR, .alignBR, .alignR { float: right; }
+    .alignTL { margin: 0 20px 20px 0; }
+    .alignTR { margin: 0 0 20px 20px; }
+    .alignBL { margin: 20px 20px 0 0; }
+    .alignBR { margin: 20px 0 0 20px; }
+    .alignL { margin: 0 20px 0 0; }
+    .alignR { margin: 0 0 0 20px; }
+    
+/**
+ *  FAKE FORM FIELD
+ */ 
+    .x_input {
+        display: none;
+    }
+
+
+/**
+ * Non-semantic helper classes: goes after defined styles: html5boilerplate.com
+ */
+
+    /* Hide for both screenreaders and browsers: css-discuss.incutio.com/wiki/Screenreader_Visibility */
+    .hidden { display: none; visibility: hidden; }
+    
+    /* Hide only visually, but have it available for screenreaders: by Jon Neal. www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden */
+    .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+    /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: drupal.org/node/897638 */
+    .visuallyhidden.focusable:active,
+    .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+    
+    /* Hide visually and from screenreaders, but maintain layout */
+    .invisible { visibility: hidden; }
+    
+    /* The Magnificent Clearfix: Updated to prevent margin-collapsing on child elements. j.mp/bestclearfix */
+    .clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+    .clearfix:after { clear: both; }
+    /* Fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
+    .clearfix { zoom: 1; }
