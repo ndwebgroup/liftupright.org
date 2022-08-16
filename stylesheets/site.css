@@ -243,10 +243,6 @@
     nav#subnav a:hover {
         background-image: url("images/bg_subnav_a_on.png");
     }
-    .addthis_toolbox {
-        margin-top: 16px;
-        margin-left: 22px;
-    }
     .at300b {
         margin-right: 4px;
     }
